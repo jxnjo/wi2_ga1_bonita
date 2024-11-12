@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="OKR-Team Innovation" description="OKR-Team">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="User1">
+      <firstName>Robin</firstName>
+      <lastName>Burkard</lastName>
+      <title>Mr</title>
+      <jobTitle>OKR-Facilitator</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>robin.burkard@uzh.ch</email>
+      </professionalData>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="User2">
+      <firstName>Jan</firstName>
+      <lastName>Joos</lastName>
+      <title>Mr</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="OKR-Facilitator">
+      <displayName>OKR-Facilitator</displayName>
+    </role>
+    <role name="Team Member">
+      <displayName>Team Member</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Digital Partner Innovation">
+      <displayName>Digital Partner Innovation</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>User1</userName>
+      <roleName>OKR-Facilitator</roleName>
+      <groupName>Digital Partner Innovation</groupName>
+    </membership>
+    <membership>
+      <userName>User2</userName>
+      <roleName>Team Member</roleName>
+      <groupName>Digital Partner Innovation</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
