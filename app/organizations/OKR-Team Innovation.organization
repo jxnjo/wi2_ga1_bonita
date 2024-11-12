@@ -2,7 +2,7 @@
 <organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="OKR-Team Innovation" description="OKR-Team">
   <customUserInfoDefinitions/>
   <users>
-    <user userName="User1">
+    <user userName="robin.burkard">
       <firstName>Robin</firstName>
       <lastName>Burkard</lastName>
       <title>Mr</title>
@@ -14,7 +14,7 @@
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
-    <user userName="User2">
+    <user userName="jan.joos">
       <firstName>Jan</firstName>
       <lastName>Joos</lastName>
       <title>Mr</title>
@@ -39,12 +39,12 @@
   </groups>
   <memberships>
     <membership>
-      <userName>User1</userName>
+      <userName>robin.burkard</userName>
       <roleName>OKR-Facilitator</roleName>
       <groupName>Digital Partner Innovation</groupName>
     </membership>
     <membership>
-      <userName>User2</userName>
+      <userName>jan.joos</userName>
       <roleName>Team Member</roleName>
       <groupName>Digital Partner Innovation</groupName>
     </membership>
