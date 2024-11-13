@@ -49,8 +49,8 @@
             <operator xmi:type="expression:Operator" xmi:id="_JUhZg6ENEe-aYLU-FfmCmw" type="ASSIGNMENT"/>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_BPuKsaEPEe-aYLU-FfmCmw">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_BPuKsqEPEe-aYLU-FfmCmw" name="cluster" content="cluster" type="TYPE_VARIABLE" returnType="com.company.model.Cluster">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_BPuKs6EPEe-aYLU-FfmCmw" name="cluster" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.Cluster"/>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_BPuKsqEPEe-aYLU-FfmCmw" name="cluster" content="cluster" type="TYPE_VARIABLE" returnType="java.util.List">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_BPuKs6EPEe-aYLU-FfmCmw" name="cluster" multiple="true" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.Cluster"/>
             </leftOperand>
             <rightOperand xmi:type="expression:Expression" xmi:id="_BPuKtKEPEe-aYLU-FfmCmw" name="clusterInput.cluster" content="clusterInput?.cluster" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
               <referencedElements xmi:type="process:ContractInput" xmi:id="_BPuKtaEPEe-aYLU-FfmCmw" name="clusterInput" type="COMPLEX"/>
@@ -99,21 +99,31 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_Ld9dIKELEe-aYLU-FfmCmw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_Ld9dIqELEe-aYLU-FfmCmw" name="" content="" returnTypeFixed="true"/>
           <operations xmi:type="expression:Operation" xmi:id="_kAYisKEOEe-aYLU-FfmCmw">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_kAZJwKEOEe-aYLU-FfmCmw" name="cluster" content="cluster" type="TYPE_VARIABLE" returnType="com.company.model.Cluster">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_kt1ekKEOEe-aYLU-FfmCmw" name="cluster" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.Cluster"/>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_kAZJwKEOEe-aYLU-FfmCmw" name="cluster" content="cluster" type="TYPE_VARIABLE" returnType="java.util.List">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_kt1ekKEOEe-aYLU-FfmCmw" name="cluster" multiple="true" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.Cluster"/>
             </leftOperand>
             <rightOperand xmi:type="expression:Expression" xmi:id="_kAZJwaEOEe-aYLU-FfmCmw" content=""/>
             <operator xmi:type="expression:Operator" xmi:id="_kAZJwqEOEe-aYLU-FfmCmw" type="ASSIGNMENT"/>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_GrnLo6EPEe-aYLU-FfmCmw">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_GrnLpKEPEe-aYLU-FfmCmw" name="cluster" content="cluster" type="TYPE_VARIABLE" returnType="com.company.model.Cluster">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_GrnLpaEPEe-aYLU-FfmCmw" name="cluster" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.Cluster"/>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_GrnLpKEPEe-aYLU-FfmCmw" name="cluster" content="cluster" type="TYPE_VARIABLE" returnType="java.util.List">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_GrnLpaEPEe-aYLU-FfmCmw" name="cluster" multiple="true" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.Cluster"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_GrnLpqEPEe-aYLU-FfmCmw" name="clusterInput.cluster" content="clusterInput?.cluster" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_GrnLp6EPEe-aYLU-FfmCmw" name="clusterInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_GrnLpqEPEe-aYLU-FfmCmw" name="clusterInput.cluster" content="     ?.cluster" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_GrnLqKEPEe-aYLU-FfmCmw" type="JAVA_METHOD" expression="setCluster">
               <inputTypes>java.lang.String</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_Pl34dKExEe-aYLU-FfmCmw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_Pl34daExEe-aYLU-FfmCmw" name="clusterCollection" content="clusterCollection" type="TYPE_VARIABLE" returnType="com.company.model.ClusterCollection">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Pl34dqExEe-aYLU-FfmCmw" name="clusterCollection" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.ClusterCollection"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_Pl34d6ExEe-aYLU-FfmCmw" name="clusterCollectionInput.cluster" content="def clusterList = []&#xD;&#xA;//For each item collected in multiple input&#xD;&#xA;clusterCollectionInput?.cluster.each{&#xD;&#xA;&#x9;//Add Cluster instance&#xD;&#xA;&#x9;clusterList.add({ currentClusterInput ->&#xD;&#xA;&#x9;&#x9;def clusterVar = clusterDAO.findByPersistenceId(currentClusterInput.persistenceId_string?.trim() ? currentClusterInput.persistenceId_string.toLong() : null)&#xD;&#xA;&#x9;&#x9;if(!clusterVar) {&#xD;&#xA;&#x9;&#x9;&#x9;throw new IllegalArgumentException(&quot;The aggregated reference of type `Cluster` with the persistence id &quot; + currentClusterInput.persistenceId_string?.trim() ? currentClusterInput.persistenceId_string.toLong() : null + &quot; has not been found.&quot;)&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;return clusterVar&#xD;&#xA;&#x9;}(it))&#xD;&#xA;}&#xD;&#xA;return clusterList" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.util.List">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_Pl34eKExEe-aYLU-FfmCmw" name="clusterCollectionInput" type="COMPLEX" createMode="false"/>
+              <referencedElements xmi:type="expression:Expression" xmi:id="_Pl34eaExEe-aYLU-FfmCmw" name="clusterDAO" content="clusterDAO" type="TYPE_BUSINESS_OBJECT_DAO" returnType="com.company.model.ClusterDAO" returnTypeFixed="true"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_Pl34eqExEe-aYLU-FfmCmw" type="JAVA_METHOD" expression="setCluster">
+              <inputTypes>java.util.List</inputTypes>
             </operator>
           </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_Ld9dI6ELEe-aYLU-FfmCmw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
@@ -122,14 +132,16 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_Ld9dJ6ELEe-aYLU-FfmCmw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_Ld9dJqELEe-aYLU-FfmCmw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_I3SgaaEMEe-aYLU-FfmCmw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_OmHEYKEMEe-aYLU-FfmCmw" name="clusterForm" content="c9915faf-0525-469d-bddc-3e2a4a178ef5" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_7KAbwKExEe-aYLU-FfmCmw" name="clusterInputForm" content="da3e8c74-0a7e-4000-a494-03fb3d0f8294" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_I3SgaKEMEe-aYLU-FfmCmw">
-            <inputs xmi:type="process:ContractInput" xmi:id="_GrnLoKEPEe-aYLU-FfmCmw" name="clusterInput" type="COMPLEX" dataReference="cluster" createMode="false">
-              <inputs xmi:type="process:ContractInput" xmi:id="_GrnLoaEPEe-aYLU-FfmCmw" name="cluster" createMode="false"/>
+            <inputs xmi:type="process:ContractInput" xmi:id="_Pl34cKExEe-aYLU-FfmCmw" name="clusterCollectionInput" type="COMPLEX" dataReference="clusterCollection" createMode="false">
+              <inputs xmi:type="process:ContractInput" xmi:id="_Pl34caExEe-aYLU-FfmCmw" name="cluster" type="COMPLEX" multiple="true" createMode="false">
+                <inputs xmi:type="process:ContractInput" xmi:id="_Pl34cqExEe-aYLU-FfmCmw" name="clusterContent" createMode="false"/>
+              </inputs>
             </inputs>
-            <constraints xmi:type="process:ContractConstraint" xmi:id="_GrnLoqEPEe-aYLU-FfmCmw" expression="clusterInput?.cluster != null" errorMessage="cluster is mandatory for Cluster" name="mandatory_clusterInput_cluster">
-              <inputNames>clusterInput</inputNames>
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_Pl34c6ExEe-aYLU-FfmCmw" expression="!clusterCollectionInput?.cluster || clusterCollectionInput?.cluster?.persistenceId_string" errorMessage="Cluster must reference an existing instance with a persistenceId for ClusterCollection" name="aggregation_clusterCollectionInput_cluster">
+              <inputNames>clusterCollectionInput</inputNames>
             </constraints>
           </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_I3Sga6EMEe-aYLU-FfmCmw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -145,8 +157,11 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_n9pUYqEMEe-aYLU-FfmCmw" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <data xmi:type="process:BusinessObjectData" xmi:id="_4f8MkKENEe-aYLU-FfmCmw" name="cluster" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.Cluster">
+      <data xmi:type="process:BusinessObjectData" xmi:id="_4f8MkKENEe-aYLU-FfmCmw" name="cluster" multiple="true" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.Cluster">
         <defaultValue xmi:type="expression:Expression" xmi:id="_4f8MkaENEe-aYLU-FfmCmw" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
+      </data>
+      <data xmi:type="process:BusinessObjectData" xmi:id="_M71JgKEwEe-aYLU-FfmCmw" name="clusterCollection" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.ClusterCollection">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_M71JgaEwEe-aYLU-FfmCmw" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_g99-z6EHEe-aYLU-FfmCmw">
         <targetForm xmi:type="expression:Expression" xmi:id="_g99-0KEHEe-aYLU-FfmCmw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
