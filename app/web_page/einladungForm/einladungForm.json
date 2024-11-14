@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "c25a99b6-2749-421a-b01e-87ef73a274fb",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731610251412,
+  "lastUpdate" : 1731610702745,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -51,6 +51,10 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
                 }
               },
               "reference" : "2afcc6b1-0602-4aee-b33c-6aedcd7e2f28",
@@ -394,7 +398,8 @@
                     "value" : true
                   },
                   "value" : {
-                    "type" : "variable"
+                    "type" : "variable",
+                    "value" : "einladung.datum"
                   },
                   "dateFormat" : {
                     "type" : "constant",
@@ -635,8 +640,13 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "return {",
-        "\teinladungInput: $data.formInput.einladungInput",
+        "if( $data.einladung ){\r",
+        "    return {\r",
+        "        //map einladung variable to expected task contract input\r",
+        "        einladungInput: {\r",
+        "            datum: $data.einladung.datum !== undefined ? $data.einladung.datum : null\r",
+        "        }\r",
+        "    }\r",
         "}"
       ],
       "exposed" : false
