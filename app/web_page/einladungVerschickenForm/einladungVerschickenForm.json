@@ -1,10 +1,10 @@
 {
-  "id" : "einladungForm",
-  "name" : "einladungForm",
+  "id" : "einladungVerschickenForm",
+  "name" : "einladungVerschickenForm",
   "type" : "form",
-  "uuid" : "c25a99b6-2749-421a-b01e-87ef73a274fb",
+  "uuid" : "231d037a-1b3c-4005-8419-0b9b3781cb0d",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731610702745,
+  "lastUpdate" : 1731619956600,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "1bdef227-e8f4-4e24-b5c9-7f37a3f4768a",
+        "reference" : "def101a8-1328-4670-8a7e-0f6291326ffd",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -51,13 +51,9 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
                 }
               },
-              "reference" : "2afcc6b1-0602-4aee-b33c-6aedcd7e2f28",
+              "reference" : "30d3d855-81bd-4e6b-ba1a-5bccf3d15326",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -105,7 +101,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "03b331ae-5730-411d-be17-7babedaed75b",
+              "reference" : "9cd30a1f-0bc5-457e-b2fa-323dd6120616",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -120,8 +116,17 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
-        "reference" : "688aa737-3484-4e94-92a5-aa959eaa81e1",
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "7aa823f0-109b-4e57-aabd-26eb5a0e808d",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -130,7 +135,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "ba6461c1-d481-4dae-8d98-1f74da88a33c",
+          "reference" : "38213656-462b-4cef-bcc0-0cc6930bd19e",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -167,13 +172,9 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-                  },
-                  "allowHTML" : {
-                    "type" : "constant",
-                    "value" : false
                   }
                 },
-                "reference" : "adc35fc8-ce61-4d7b-bcd3-8739b9f83e9c",
+                "reference" : "6a9f6c42-2ef7-4519-8bac-8346e1c4321f",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -183,29 +184,25 @@
               {
                 "type" : "container",
                 "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
                   "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
                   "lg" : 12
                 },
                 "propertyValues" : {
-                  "repeatedCollection" : {
-                    "type" : "variable"
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
                   },
                   "hidden" : {
                     "type" : "constant",
                     "value" : false
                   },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
+                  "repeatedCollection" : {
+                    "type" : "variable"
                   }
                 },
-                "reference" : "3b3c8330-10b7-47c9-9a78-cd08c5fbec57",
+                "reference" : "776de98e-ab4d-4797-8c17-1d73b1933732",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -213,75 +210,78 @@
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
                         "xs" : 12,
+                        "sm" : 12,
+                        "md" : 12,
                         "lg" : 12
                       },
                       "propertyValues" : {
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "level" : {
-                          "type" : "constant",
-                          "value" : "Level 4"
-                        },
                         "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
                         },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "Alle Teammitglieder"
-                        },
-                        "alignment" : {
+                        "hidden" : {
                           "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
+                          "value" : false
                         },
                         "allowHTML" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Default label"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "Teammitglieder:"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
                         }
                       },
-                      "reference" : "743bf40a-3e29-4ae4-b364-f108cdae7a76",
+                      "reference" : "ea021ed8-6116-4bc2-b1b2-10e1a8990b3a",
                       "hasValidationError" : false,
-                      "id" : "pbTitle",
-                      "description" : ""
+                      "id" : "pbText"
                     }
                   ],
                   [
                     {
                       "type" : "container",
                       "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
                         "xs" : 12,
+                        "sm" : 12,
+                        "md" : 12,
                         "lg" : 12
                       },
                       "propertyValues" : {
-                        "repeatedCollection" : {
-                          "type" : "variable",
-                          "value" : "userList"
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
                         },
                         "hidden" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
+                        "repeatedCollection" : {
+                          "type" : "variable",
+                          "value" : "userList"
                         }
                       },
-                      "reference" : "60c3725f-8fe4-48f3-914b-cef34a1c58ee",
+                      "reference" : "d7bb84ae-349f-47c4-8648-7f554ea63f78",
                       "hasValidationError" : false,
                       "id" : "pbContainer",
                       "rows" : [
@@ -291,8 +291,8 @@
                             "dimension" : {
                               "xs" : 12,
                               "sm" : 12,
-                              "md" : 6,
-                              "lg" : 6
+                              "md" : 12,
+                              "lg" : 12
                             },
                             "propertyValues" : {
                               "cssClasses" : {
@@ -332,7 +332,7 @@
                                 "value" : "left"
                               }
                             },
-                            "reference" : "a8ba3afc-fa6f-464d-946b-c6244f7f24c3",
+                            "reference" : "35bb7a6a-9094-4ed1-93c4-d9ab33d88f16",
                             "hasValidationError" : false,
                             "id" : "pbText"
                           }
@@ -345,98 +345,139 @@
             ],
             [
               {
-                "type" : "component",
+                "type" : "container",
                 "dimension" : {
-                  "xs" : 12,
-                  "sm" : 12,
                   "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
                   "lg" : 12
                 },
                 "propertyValues" : {
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
+                  "repeatedCollection" : {
+                    "type" : "variable"
                   },
                   "hidden" : {
                     "type" : "constant",
                     "value" : false
                   },
-                  "readOnly" : {
+                  "cssClasses" : {
                     "type" : "constant",
-                    "value" : false
+                    "value" : ""
                   },
-                  "required" : {
+                  "dimension" : {
                     "type" : "constant",
-                    "value" : false
-                  },
-                  "allowHTML" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "labelHidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "inlineInput" : {
-                    "type" : "constant",
-                    "value" : true
-                  },
-                  "label" : {
-                    "type" : "interpolation",
-                    "value" : "Date and time"
-                  },
-                  "labelPosition" : {
-                    "type" : "constant",
-                    "value" : "top"
-                  },
-                  "labelWidth" : {
-                    "type" : "constant",
-                    "value" : 4
-                  },
-                  "withTimeZone" : {
-                    "type" : "constant",
-                    "value" : true
-                  },
-                  "value" : {
-                    "type" : "variable",
-                    "value" : "einladung.datum"
-                  },
-                  "dateFormat" : {
-                    "type" : "constant",
-                    "value" : "MM/dd/yyyy"
-                  },
-                  "placeholder" : {
-                    "type" : "interpolation",
-                    "value" : "Enter a date (mm/dd/yyyy)"
-                  },
-                  "timeFormat" : {
-                    "type" : "constant",
-                    "value" : "h:mm:ss a"
-                  },
-                  "timePlaceholder" : {
-                    "type" : "interpolation",
-                    "value" : "Enter a time (h:mm:ss a)"
-                  },
-                  "showToday" : {
-                    "type" : "constant",
-                    "value" : true
-                  },
-                  "todayLabel" : {
-                    "type" : "interpolation",
-                    "value" : "Today"
-                  },
-                  "showNow" : {
-                    "type" : "constant",
-                    "value" : true
-                  },
-                  "nowLabel" : {
-                    "type" : "interpolation",
-                    "value" : "Now"
+                    "value" : 12
                   }
                 },
-                "reference" : "8a72c038-458a-4f3a-9144-9838daa276d8",
+                "reference" : "426cc352-abf6-462e-bf07-afe28d7308cf",
                 "hasValidationError" : false,
-                "id" : "pbDateTimePicker"
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "showNow" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "inlineInput" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "dateFormat" : {
+                          "type" : "constant",
+                          "value" : "dd/MM/yyyy"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Wann soll das Drafting-Meeting stattfinden?"
+                        },
+                        "type" : {
+                          "type" : "constant"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "todayLabel" : {
+                          "type" : "constant",
+                          "value" : "Heute"
+                        },
+                        "timePlaceholder" : {
+                          "type" : "constant",
+                          "value" : "Uhrzeit eingeben (h:mm:ss a)"
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "showToday" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "timeFormat" : {
+                          "type" : "constant",
+                          "value" : "h:mm:ss a"
+                        },
+                        "placeholder" : {
+                          "type" : "constant",
+                          "value" : "Datum eingeben (dd/mm/yyyy)"
+                        },
+                        "nowLabel" : {
+                          "type" : "constant",
+                          "value" : "Jetzt"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "einladung.datum"
+                        },
+                        "withTimeZone" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        }
+                      },
+                      "reference" : "3ac71f45-0bf3-4b79-a081-cb6ab453a6c5",
+                      "hasValidationError" : false,
+                      "id" : "pbDateTimePicker",
+                      "description" : ""
+                    }
+                  ]
+                ]
               }
             ],
             [
@@ -470,7 +511,7 @@
                   },
                   "dataToSend" : {
                     "type" : "expression",
-                    "value" : "einladung.datum"
+                    "value" : "formOutput"
                   },
                   "dataFromError" : {
                     "type" : "variable",
@@ -524,19 +565,18 @@
                     "type" : "variable"
                   },
                   "dataFromSuccess" : {
-                    "type" : "variable",
-                    "value" : "einladungDatum"
+                    "type" : "variable"
                   },
                   "closeOnSuccess" : {
                     "type" : "constant",
-                    "value" : false
+                    "value" : true
                   },
                   "modalId" : {
                     "type" : "constant",
                     "value" : ""
                   }
                 },
-                "reference" : "614dc11f-9da7-43cc-9c73-8ed0127c5b53",
+                "reference" : "270727d4-334c-41c2-a6e1-03af7838c406",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -586,17 +626,9 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-                  },
-                  "labelPosition" : {
-                    "type" : "constant",
-                    "value" : "top"
-                  },
-                  "labelWidth" : {
-                    "type" : "constant",
-                    "value" : 4
                   }
                 },
-                "reference" : "6c3a5083-e1a2-4898-af8a-77ad95c45e2b",
+                "reference" : "8cf836ca-00be-4366-bb7e-02fe1bb59240",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -615,10 +647,10 @@
       ],
       "exposed" : false
     },
-    "formInput" : {
-      "type" : "json",
+    "einladung" : {
+      "type" : "url",
       "value" : [
-        "{\"einladungInput\": { \"datum\" : \"\" }}"
+        "../{{context.einladung_ref.link}}"
       ],
       "exposed" : false
     },
@@ -640,13 +672,13 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.einladung ){\r",
-        "    return {\r",
-        "        //map einladung variable to expected task contract input\r",
-        "        einladungInput: {\r",
-        "            datum: $data.einladung.datum !== undefined ? $data.einladung.datum : null\r",
-        "        }\r",
-        "    }\r",
+        "if( $data.einladung ){",
+        "\treturn {",
+        "\t\t//map einladung variable to expected task contract input",
+        "\t\teinladungInput: {",
+        "\t\t\tdatum: $data.einladung.datum !== undefined ? $data.einladung.datum : null",
+        "\t\t}",
+        "\t}",
         "}"
       ],
       "exposed" : false
@@ -665,37 +697,26 @@
       ],
       "exposed" : false
     },
-    "einladungDatum" : {
-      "type" : "constant",
-      "exposed" : false
-    },
     "userList" : {
       "type" : "url",
       "value" : [
-        "http://localhost:8080/bonita/API/identity/user?p=0&c=100"
-      ],
-      "exposed" : false
-    },
-    "einladung" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.einladung_ref.link}}"
+        "../API/identity/user?p=0&c=100"
       ],
       "exposed" : false
     }
   },
   "assets" : [
     {
-      "id" : "03fa49d5-a1fd-40fc-a3d2-1c2f2d2e9cbc",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "d8bba6d1-a9d8-4b1b-9d25-63a909af8eec",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "40da9dea-1cc3-418e-a699-a4166b27f184",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "daee1a12-a8cb-412a-9835-97a36baee276",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     }

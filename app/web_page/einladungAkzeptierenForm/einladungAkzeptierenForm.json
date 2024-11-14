@@ -2,9 +2,9 @@
   "id" : "einladungAkzeptierenForm",
   "name" : "einladungAkzeptierenForm",
   "type" : "form",
-  "uuid" : "95bf43d0-089a-48d5-bc98-e38e601d8783",
+  "uuid" : "6addbe5c-d876-417d-975f-032e758300c0",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731520816005,
+  "lastUpdate" : 1731619983318,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "10596d7c-1534-4e1c-8055-7f0afcd70225",
+        "reference" : "b01deff8-36a0-439f-bb57-4e702f33700f",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +53,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "4c695d44-8d81-4361-8d96-9313fb03f63c",
+              "reference" : "f8388a94-3b35-474b-88c7-dca428e3155a",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -99,21 +99,9 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "labelPosition" : {
-                  "type" : "constant",
-                  "value" : "top"
-                },
-                "labelWidth" : {
-                  "type" : "constant",
-                  "value" : 4
                 }
               },
-              "reference" : "7fe33ee3-5513-4f5a-aa59-d4a33535ecb6",
+              "reference" : "568865a3-a5e5-43b0-b5da-e81bf5bca09a",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -129,7 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "ae126a34-d64e-47ef-a826-1f4438b2f62a",
+        "reference" : "927f83d4-f0ad-49a7-a34b-f5d80f6ea206",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -138,7 +126,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "83b32a2c-c2bc-49dc-ac2e-28ed07576b21",
+          "reference" : "bc1c063a-ba7f-4bdb-bbb9-cac145a39740",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -146,52 +134,178 @@
               {
                 "type" : "component",
                 "dimension" : {
-                  "xs" : 12,
-                  "sm" : 12,
                   "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
                   "lg" : 12
                 },
                 "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
                   "cssClasses" : {
                     "type" : "constant",
                     "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Einladung"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "e045cac1-104b-4a08-bbe8-9b27bc1822f4",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "repeatedCollection" : {
+                    "type" : "variable"
                   },
                   "hidden" : {
                     "type" : "constant",
                     "value" : false
                   },
-                  "allowHTML" : {
+                  "cssClasses" : {
                     "type" : "constant",
-                    "value" : false
+                    "value" : ""
                   },
-                  "labelHidden" : {
+                  "dimension" : {
                     "type" : "constant",
-                    "value" : true
-                  },
-                  "label" : {
-                    "type" : "interpolation",
-                    "value" : "Default label"
-                  },
-                  "labelPosition" : {
-                    "type" : "constant",
-                    "value" : "top"
-                  },
-                  "labelWidth" : {
-                    "type" : "constant",
-                    "value" : 4
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "Sie wurden für das Meeting für den nächsten OKR-Cycle eingeladen."
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
+                    "value" : 12
                   }
                 },
-                "reference" : "a4bc3acc-6703-4eeb-b142-a40f30847d5f",
+                "reference" : "17c2eb13-8941-473e-ab7b-eb9854cf125a",
                 "hasValidationError" : false,
-                "id" : "pbText"
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "showNow" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "inlineInput" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "dateFormat" : {
+                          "type" : "constant",
+                          "value" : "MM/dd/yyyy"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Datum"
+                        },
+                        "type" : {
+                          "type" : "constant"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "todayLabel" : {
+                          "type" : "constant",
+                          "value" : "Today"
+                        },
+                        "timePlaceholder" : {
+                          "type" : "constant",
+                          "value" : "Enter a time (h:mm:ss a)"
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "showToday" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "timeFormat" : {
+                          "type" : "constant",
+                          "value" : "h:mm:ss a"
+                        },
+                        "placeholder" : {
+                          "type" : "constant",
+                          "value" : "Enter a date (mm/dd/yyyy)"
+                        },
+                        "nowLabel" : {
+                          "type" : "constant",
+                          "value" : "Now"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "einladung.datum"
+                        },
+                        "withTimeZone" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        }
+                      },
+                      "reference" : "491644c4-e74d-4870-98e0-289654951dbb",
+                      "hasValidationError" : false,
+                      "id" : "pbDateTimePicker",
+                      "description" : ""
+                    }
+                  ]
+                ]
               }
             ],
             [
@@ -221,7 +335,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Einladung annehmen"
+                    "value" : "Akzeptieren"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -290,7 +404,7 @@
                     "value" : ""
                   }
                 },
-                "reference" : "3aa224c8-9cbe-4829-a893-3b236bc93ca1",
+                "reference" : "73fcfade-b14f-4440-8aaf-aad782df1433",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -342,7 +456,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "c7be404f-3e6c-42e0-bd0a-9393402a7bb8",
+                "reference" : "1be035e9-a500-4349-8369-5894f6494d6e",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -358,6 +472,13 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "einladung" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.einladung_ref.link}}"
       ],
       "exposed" : false
     },
@@ -379,8 +500,13 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "return {",
-        "",
+        "if( $data.einladung ){",
+        "\treturn {",
+        "\t\t//map einladung variable to expected task contract input",
+        "\t\teinladungInput: {",
+        "\t\t\tdatum: $data.einladung.datum !== undefined ? $data.einladung.datum : null",
+        "\t\t}",
+        "\t}",
         "}"
       ],
       "exposed" : false
@@ -402,16 +528,16 @@
   },
   "assets" : [
     {
-      "id" : "eb231596-769b-42bc-80ea-ed1874aa59cc",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "20f851c6-cb4c-4145-ab6a-ca6972fc0bf7",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "70ac0712-524a-4793-9a1c-772b60b84c45",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "e0b6a041-1585-4dc1-a237-7f12c9ea4637",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     }
