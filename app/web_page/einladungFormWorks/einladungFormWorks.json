@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "231d037a-1b3c-4005-8419-0b9b3781cb0d",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731611224597,
+  "lastUpdate" : 1731615659151,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -116,7 +116,16 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
         "reference" : "7aa823f0-109b-4e57-aabd-26eb5a0e808d",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
@@ -544,6 +553,27 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable"
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable"
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
                 "reference" : "270727d4-334c-41c2-a6e1-03af7838c406",
@@ -670,7 +700,7 @@
     "userList" : {
       "type" : "url",
       "value" : [
-        "http://localhost:8080/bonita/API/identity/user?p=0&c=100"
+        "../API/identity/user?p=0&c=100"
       ],
       "exposed" : false
     }
