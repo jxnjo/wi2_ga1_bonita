@@ -43,14 +43,16 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_jyNykqEIEe-aYLU-FfmCmw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_jyNykaEIEe-aYLU-FfmCmw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_jyNyk6EIEe-aYLU-FfmCmw" name="" content="" returnTypeFixed="true"/>
-          <operations xmi:type="expression:Operation" xmi:id="_VKBxYKHdEe-aYLU-FfmCmw">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_VKBxYaHdEe-aYLU-FfmCmw" name="userList" content="userList" type="TYPE_VARIABLE" returnType="com.company.model.UserList">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_WTVi0KHdEe-aYLU-FfmCmw" name="userList" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.UserList"/>
+          <operations xmi:type="expression:Operation" xmi:id="_yGXi06K3Ee-pXblqnP0p3A">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_yGXi1KK3Ee-pXblqnP0p3A" name="einladung" content="einladung" type="TYPE_VARIABLE" returnType="com.company.model.Einladung">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_yGXi1aK3Ee-pXblqnP0p3A" name="einladung" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.Einladung"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_VKBxYqHdEe-aYLU-FfmCmw" name="createUserList()" content="import org.bonitasoft.engine.api.IdentityAPI;&#xD;&#xA;import org.bonitasoft.engine.identity.User;&#xD;&#xA;import org.bonitasoft.engine.identity.UserCriterion;&#xD;&#xA;import java.util.List;&#xD;&#xA;import java.util.ArrayList;&#xD;&#xA; &#xD;&#xA;&#xD;&#xA; &#xD;&#xA;// Erstellen Sie eine leere Liste, um die Benutzer zu speichern&#xD;&#xA;List&lt;User> allUsers = new ArrayList&lt;>();&#xD;&#xA;User user1 = apiAccessor.getIdentityAPI().getUserByUserName(&quot;robin.burkard&quot;);&#xD;&#xA;allUsers.add(user1);&#xD;&#xA;return allUsers;" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.company.model.UserList">
-              <referencedElements xmi:type="expression:Expression" xmi:id="_B8jvkKHgEe-aYLU-FfmCmw" name="apiAccessor" content="apiAccessor" type="TYPE_ENGINE_CONSTANT" returnType="org.bonitasoft.engine.api.APIAccessor"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_yGXi1qK3Ee-pXblqnP0p3A" name="einladungInput.datum" content="einladungInput?.datum" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.LocalDateTime">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_zW6ksKK3Ee-pXblqnP0p3A" name="einladungInput" type="COMPLEX"/>
             </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_VKBxY6HdEe-aYLU-FfmCmw" type="ASSIGNMENT"/>
+            <operator xmi:type="expression:Operator" xmi:id="_yGXi2KK3Ee-pXblqnP0p3A" type="JAVA_METHOD" expression="setDatum">
+              <inputTypes>java.time.LocalDateTime</inputTypes>
+            </operator>
           </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_jyNylKEIEe-aYLU-FfmCmw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_jyNylaEIEe-aYLU-FfmCmw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
@@ -61,10 +63,10 @@
             <targetForm xmi:type="expression:Expression" xmi:id="_Tfqr4KHeEe-aYLU-FfmCmw" name="einladungForm" content="c25a99b6-2749-421a-b01e-87ef73a274fb" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_vrGsKKEIEe-aYLU-FfmCmw">
-            <inputs xmi:type="process:ContractInput" xmi:id="_zcBggKHuEe-aYLU-FfmCmw" name="einladungInput" type="COMPLEX" dataReference="einladung">
-              <inputs xmi:type="process:ContractInput" xmi:id="_zcBggaHuEe-aYLU-FfmCmw" name="datum" type="LOCALDATETIME"/>
+            <inputs xmi:type="process:ContractInput" xmi:id="_yGXi0KK3Ee-pXblqnP0p3A" name="einladungInput" type="COMPLEX" dataReference="einladung">
+              <inputs xmi:type="process:ContractInput" xmi:id="_yGXi0aK3Ee-pXblqnP0p3A" name="datum" type="LOCALDATETIME"/>
             </inputs>
-            <constraints xmi:type="process:ContractConstraint" xmi:id="_zcBggqHuEe-aYLU-FfmCmw" expression="einladungInput?.datum != null" errorMessage="datum is mandatory for Einladung" name="mandatory_einladungInput_datum">
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_yGXi0qK3Ee-pXblqnP0p3A" expression="einladungInput?.datum != null" errorMessage="datum is mandatory for Einladung" name="mandatory_einladungInput_datum">
               <inputNames>einladungInput</inputNames>
             </constraints>
           </contract>
@@ -259,17 +261,17 @@
       <data xmi:type="process:BusinessObjectData" xmi:id="_XQB4wKHWEe-aYLU-FfmCmw" name="clusterCollection" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.ClusterCollection">
         <defaultValue xmi:type="expression:Expression" xmi:id="_XQB4waHWEe-aYLU-FfmCmw" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
       </data>
-      <data xmi:type="process:BusinessObjectData" xmi:id="_OV9ckKHdEe-aYLU-FfmCmw" name="userList" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.UserList">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_OV9ckaHdEe-aYLU-FfmCmw" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
-      </data>
       <data xmi:type="process:BusinessObjectData" xmi:id="_y_ZP4KHjEe-aYLU-FfmCmw" name="okrTable" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.OKRTable">
         <defaultValue xmi:type="expression:Expression" xmi:id="_y_ZP4aHjEe-aYLU-FfmCmw" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
       </data>
       <data xmi:type="process:BusinessObjectData" xmi:id="_ThiTIKHpEe-aYLU-FfmCmw" name="einladung" dataType="_wa74tKEGEe-aYLU-FfmCmw" className="com.company.model.Einladung">
         <defaultValue xmi:type="expression:Expression" xmi:id="_ThiTIaHpEe-aYLU-FfmCmw" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
       </data>
+      <data xmi:type="process:JavaObjectData" xmi:id="_gxEaAKKuEe-pXblqnP0p3A" name="einladungDaten" dataType="_wa74sqEGEe-aYLU-FfmCmw" className="java.util.List">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_gxEaAaKuEe-pXblqnP0p3A" content="" returnType="java.util.List"/>
+      </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_g99-z6EHEe-aYLU-FfmCmw">
-        <targetForm xmi:type="expression:Expression" xmi:id="_ZhDxEKKjEe-pXblqnP0p3A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_l51poKK5Ee-pXblqnP0p3A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_g99-0aEHEe-aYLU-FfmCmw">
         <targetForm xmi:type="expression:Expression" xmi:id="_g99-0qEHEe-aYLU-FfmCmw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
