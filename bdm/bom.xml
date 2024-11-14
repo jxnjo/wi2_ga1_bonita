@@ -3,7 +3,16 @@
     <businessObjects>
         <businessObject qualifiedName="com.company.model.Cluster">
             <fields>
-                <field type="STRING" length="255" name="cluster" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="clusterContent" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="clusterTitle" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.ClusterCollection">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.company.model.Cluster" fetchType="LAZY" name="clusterCollectionContent" nullable="true" collection="true"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -11,8 +20,34 @@
         </businessObject>
         <businessObject qualifiedName="com.company.model.Einladung">
             <fields>
-                <field type="LOCALDATE" length="255" name="datum" nullable="false" collection="false"/>
-                <field type="STRING" length="255" name="teilnehmer" nullable="false" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="datum" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.OKR">
+            <fields>
+                <field type="STRING" length="255" name="inputString" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="outputString" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="outcomeString" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="fortschritt" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.OKRTable">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.company.model.OKR" fetchType="LAZY" name="okrZeile" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.UserList">
+            <fields>
+                <field type="STRING" length="255" name="users" nullable="true" collection="true"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
