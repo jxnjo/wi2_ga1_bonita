@@ -45,6 +45,14 @@
             <queries/>
             <indexes/>
         </businessObject>
+        <businessObject qualifiedName="com.company.model.Prozess">
+            <fields>
+                <field type="BOOLEAN" length="255" name="prozessStatus" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
         <businessObject qualifiedName="com.company.model.UserList">
             <fields>
                 <field type="STRING" length="255" name="users" nullable="true" collection="true"/>
