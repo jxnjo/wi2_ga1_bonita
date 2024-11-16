@@ -10,6 +10,14 @@
             <queries/>
             <indexes/>
         </businessObject>
+        <businessObject qualifiedName="com.company.model.ClusterCounter">
+            <fields>
+                <field type="INTEGER" length="255" name="cnt" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
         <businessObject qualifiedName="com.company.model.ClustersCompleted">
             <fields>
                 <field type="BOOLEAN" length="255" name="completed" nullable="false" collection="false"/>
@@ -31,7 +39,25 @@
                 <field type="STRING" length="255" name="inputString" nullable="false" collection="false"/>
                 <field type="STRING" length="255" name="outputString" nullable="false" collection="false"/>
                 <field type="STRING" length="255" name="outcomeString" nullable="false" collection="false"/>
-                <field type="INTEGER" length="255" name="fortschritt" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.OKRTabelle">
+            <fields>
+                <field type="STRING" length="255" name="okr1" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="zustaendigkeit1" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="okr2" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="zustaendigkeit2" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="okr3" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="zustaendigkeit3" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="fortschritt1" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="fortschritt2" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="fortschritt3" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aktiv1" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aktiv2" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aktiv3" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
