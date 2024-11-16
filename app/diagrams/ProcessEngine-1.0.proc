@@ -386,7 +386,7 @@
           </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_I3Sga6EMEe-aYLU-FfmCmw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:XORGateway" xmi:id="_-AYoQKN8Ee-prI0FBJ3d6g" name="completed?" outgoing="_AzuSkKN9Ee-prI0FBJ3d6g _b0u8YKQuEe-e_PUYJW9ZgA" incoming="_CY3dsKN4Ee-prI0FBJ3d6g">
+        <elements xmi:type="process:XORGateway" xmi:id="_-AYoQKN8Ee-prI0FBJ3d6g" name="vollständig?" outgoing="_AzuSkKN9Ee-prI0FBJ3d6g _b0u8YKQuEe-e_PUYJW9ZgA" incoming="_CY3dsKN4Ee-prI0FBJ3d6g">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_-AYoQqN8Ee-prI0FBJ3d6g" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_-AYoQaN8Ee-prI0FBJ3d6g" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_-AYoQ6N8Ee-prI0FBJ3d6g" name="" content="" returnTypeFixed="true"/>
