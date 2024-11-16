@@ -19,7 +19,9 @@
       <lastName>Joos</lastName>
       <title>Mr</title>
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>janfrederic.joos@uzh.ch</email>
+      </professionalData>
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>

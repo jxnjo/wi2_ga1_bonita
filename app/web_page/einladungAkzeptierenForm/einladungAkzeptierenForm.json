@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "6addbe5c-d876-417d-975f-032e758300c0",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731619983318,
+  "lastUpdate" : 1731776082682,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -154,7 +154,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Einladung"
+                    "value" : "Du hast eine neue Einladung für ein OKR-Drafting erhalten"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -163,6 +163,10 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
                   }
                 },
                 "reference" : "e045cac1-104b-4a08-bbe8-9b27bc1822f4",
@@ -241,7 +245,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Datum"
+                          "value" : "Datum des OKR-Drafting-Meetings"
                         },
                         "type" : {
                           "type" : "constant"
@@ -335,7 +339,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Akzeptieren"
+                    "value" : "Einladung akzeptieren"
                   },
                   "dataToSend" : {
                     "type" : "expression",

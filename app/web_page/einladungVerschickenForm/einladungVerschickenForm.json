@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "231d037a-1b3c-4005-8419-0b9b3781cb0d",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731619956600,
+  "lastUpdate" : 1731780542494,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -13,7 +13,19 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
         "reference" : "def101a8-1328-4670-8a7e-0f6291326ffd",
         "hasValidationError" : false,
         "id" : "pbContainer",
@@ -51,6 +63,10 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
                 }
               },
               "reference" : "30d3d855-81bd-4e6b-ba1a-5bccf3d15326",
@@ -63,10 +79,10 @@
             {
               "type" : "component",
               "dimension" : {
-                "md" : 12,
+                "md" : 6,
                 "sm" : 12,
                 "xs" : 12,
-                "lg" : 12
+                "lg" : 6
               },
               "propertyValues" : {
                 "allowHtml" : {
@@ -163,7 +179,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Einladung"
+                    "value" : "Einladung zum OKR-Drafting des nächsten OKR-Cycles"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -172,6 +188,10 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
                   }
                 },
                 "reference" : "6a9f6c42-2ef7-4519-8bac-8346e1c4321f",
@@ -246,7 +266,7 @@
                         },
                         "text" : {
                           "type" : "interpolation",
-                          "value" : "Teammitglieder:"
+                          "value" : "Folgende Mitarbeiter sind im aktuellen Team:"
                         },
                         "alignment" : {
                           "type" : "constant",
@@ -507,7 +527,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Submit"
+                    "value" : "Teammitglieder einladen"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -626,6 +646,14 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
                   }
                 },
                 "reference" : "8cf836ca-00be-4366-bb7e-02fe1bb59240",

@@ -1,10 +1,10 @@
 {
-  "id" : "newForm7",
-  "name" : "newForm7",
+  "id" : "IOOtabelleErstellenForm",
+  "name" : "IOOtabelleErstellenForm",
   "type" : "form",
   "uuid" : "f55818e9-e201-4a11-a4ed-d30f6392a29c",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731773921743,
+  "lastUpdate" : 1731779966223,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -132,6 +132,58 @@
           "rows" : [
             [
               {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Bitte kategorisieren Sie den Inhalt der Cluster zusammenfassend als Input, Output oder Outcome."
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  }
+                },
+                "reference" : "e6667a84-400f-4bd5-bbba-9d4381fa26a1",
+                "hasValidationError" : false,
+                "id" : "pbText"
+              }
+            ],
+            [
+              {
                 "type" : "container",
                 "dimension" : {
                   "xs" : 12,
@@ -235,7 +287,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Okr"
+                    "value" : "Input-Output-Outcome Liste"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -244,6 +296,10 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
                   }
                 },
                 "reference" : "8995a0a3-5234-4df7-a95e-d94082c3e4d9",
@@ -319,7 +375,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Input String"
+                          "value" : "Input"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -339,6 +395,32 @@
                         "required" : {
                           "type" : "constant",
                           "value" : true
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "646748df-f14f-48d8-a1bc-a28e952cf906",
@@ -383,7 +465,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Output String"
+                          "value" : "Output"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -403,6 +485,32 @@
                         "required" : {
                           "type" : "constant",
                           "value" : true
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "a75b0321-ae3b-4f84-acdc-c4f5ce69a2df",
@@ -447,7 +555,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Outcome String"
+                          "value" : "Outcome"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -530,7 +638,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "<span class=\"glyphicon glyphicon-plus\"></span> Add OKR"
+                    "value" : "<span class=\"glyphicon glyphicon-plus\"></span> Zeile hinzufügen"
                   },
                   "dataToSend" : {
                     "type" : "expression"
@@ -631,7 +739,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Submit"
+                    "value" : "Weiter"
                   },
                   "dataToSend" : {
                     "type" : "expression",

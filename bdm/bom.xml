@@ -46,11 +46,11 @@
         </businessObject>
         <businessObject qualifiedName="com.company.model.OKRTabelle">
             <fields>
-                <field type="STRING" length="255" name="okr1" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="objective1" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="zustaendigkeit1" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="okr2" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="objective2" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="zustaendigkeit2" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="okr3" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="objective3" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="zustaendigkeit3" nullable="true" collection="false"/>
                 <field type="INTEGER" length="255" name="fortschritt1" nullable="true" collection="false"/>
                 <field type="INTEGER" length="255" name="fortschritt2" nullable="true" collection="false"/>
@@ -58,6 +58,9 @@
                 <field type="BOOLEAN" length="255" name="aktiv1" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="aktiv2" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="aktiv3" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="keyresult1" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="keyresult2" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="keyresult3" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
