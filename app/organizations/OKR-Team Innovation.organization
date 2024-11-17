@@ -25,6 +25,26 @@
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
+    <user userName="reiner.zufall">
+      <firstName>Reiner</firstName>
+      <lastName>Zufall</lastName>
+      <title>Mr</title>
+      <personalData/>
+      <professionalData>
+        <email>reiner.zufall@bluewin.ch</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="barbara.rhabarber">
+      <firstName>Barbara</firstName>
+      <lastName>Rhabarber</lastName>
+      <title>Ms</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="OKR-Facilitator">
@@ -47,6 +67,16 @@
     </membership>
     <membership>
       <userName>jan.joos</userName>
+      <roleName>Team Member</roleName>
+      <groupName>Digital Partner Innovation</groupName>
+    </membership>
+    <membership>
+      <userName>reiner.zufall</userName>
+      <roleName>Team Member</roleName>
+      <groupName>Digital Partner Innovation</groupName>
+    </membership>
+    <membership>
+      <userName>barbara.rhabarber</userName>
       <roleName>Team Member</roleName>
       <groupName>Digital Partner Innovation</groupName>
     </membership>

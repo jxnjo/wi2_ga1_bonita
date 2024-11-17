@@ -542,7 +542,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_rqkXgKLMEe-YhYlYVX9NAA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_rqkXgqLMEe-YhYlYVX9NAA" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_-CuakKLMEe-YhYlYVX9NAA" name="Check-In (2)" outgoing="_-Cw20KLMEe-YhYlYVX9NAA" incoming="_rqmMsKLMEe-YhYlYVX9NAA" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_-CuakKLMEe-YhYlYVX9NAA" name="Check-In Facilitator" outgoing="_-Cw20KLMEe-YhYlYVX9NAA" incoming="_rqmMsKLMEe-YhYlYVX9NAA" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_-CvBoaLMEe-YhYlYVX9NAA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_-CvBoKLMEe-YhYlYVX9NAA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_-CvBoqLMEe-YhYlYVX9NAA" name="" content="" returnTypeFixed="true"/>
@@ -1055,7 +1055,7 @@
           </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_cbReTKT6Ee-kdJh2XTLqaQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_tiaC4KLMEe-YhYlYVX9NAA" name="Check-In" outgoing="_AGzyMKLNEe-YhYlYVX9NAA" incoming="_7AQIEKLMEe-YhYlYVX9NAA" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_tiaC4KLMEe-YhYlYVX9NAA" name="Check-In Teammember" outgoing="_AGzyMKLNEe-YhYlYVX9NAA" incoming="_7AQIEKLMEe-YhYlYVX9NAA" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_tiap8KLMEe-YhYlYVX9NAA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_tiaC4aLMEe-YhYlYVX9NAA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_tiap8aLMEe-YhYlYVX9NAA" name="" content="" returnTypeFixed="true"/>
@@ -1529,7 +1529,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_JwulgKUMEe-kdJh2XTLqaQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_JwulgqUMEe-kdJh2XTLqaQ" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_4mO_sKUcEe-kdJh2XTLqaQ" name="Alignment machen" outgoing="_wtxOoKUcEe-kdJh2XTLqaQ" incoming="_qOn2YKUbEe-kdJh2XTLqaQ" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_4mO_sKUcEe-kdJh2XTLqaQ" name="Alignment durchführen" outgoing="_wtxOoKUcEe-kdJh2XTLqaQ" incoming="_qOn2YKUbEe-kdJh2XTLqaQ" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_wtuyYaUcEe-kdJh2XTLqaQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_wtuyYKUcEe-kdJh2XTLqaQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_wtuyYqUcEe-kdJh2XTLqaQ" name="" content="" returnTypeFixed="true"/>
@@ -2182,7 +2182,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_-CvBrKLMEe-YhYlYVX9NAA" type="3005" element="_-CuakKLMEe-YhYlYVX9NAA" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_-CvBrqLMEe-YhYlYVX9NAA" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-CvBraLMEe-YhYlYVX9NAA" x="1439" y="226"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-CvBraLMEe-YhYlYVX9NAA" x="1439" y="226" width="120" height="60"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="__v5HA6LMEe-YhYlYVX9NAA" type="3009" element="__v4f8KLMEe-YhYlYVX9NAA" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="__v5uEKLMEe-YhYlYVX9NAA" type="5020">
@@ -2302,7 +2302,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_4mPmzKUcEe-kdJh2XTLqaQ" type="3005" element="_4mO_sKUcEe-kdJh2XTLqaQ" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_4mPmzqUcEe-kdJh2XTLqaQ" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4mPmzaUcEe-kdJh2XTLqaQ" x="1203" y="96" width="100" height="50"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4mPmzaUcEe-kdJh2XTLqaQ" x="1203" y="96" width="120" height="60"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_lStKYaEHEe-aYLU-FfmCmw"/>

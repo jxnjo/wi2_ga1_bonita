@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "c36762e1-7d51-41b8-823e-33b75730bacc",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731876577965,
+  "lastUpdate" : 1731878776326,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -13,11 +13,61 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
         "reference" : "90213836-42ab-40b3-9f29-380dadbe9662",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 3,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "srcType" : {
+                  "type" : "constant",
+                  "value" : "Asset"
+                },
+                "url" : {
+                  "type" : "constant"
+                },
+                "assetName" : {
+                  "type" : "constant",
+                  "value" : "LH.png"
+                },
+                "alt" : {
+                  "type" : "interpolation"
+                }
+              },
+              "reference" : "addf1845-2386-4c14-af27-2e6f34672c49",
+              "hasValidationError" : false,
+              "id" : "pbImage"
+            }
+          ],
           [
             {
               "type" : "component",
@@ -170,7 +220,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Okr Table"
+                    "value" : "OKR-Tabelle"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -249,7 +299,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Objective1"
+                          "value" : "Objective 1"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -308,7 +358,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Keyresult1"
+                          "value" : "Keyresult 1"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -367,7 +417,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Zustaendigkeit1"
+                          "value" : "Zustaendigkeit 1"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -426,7 +476,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Fortschritt1"
+                          "value" : "Fortschritt 1"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -485,7 +535,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Aktiv1"
+                          "value" : "Aktiv 1"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -546,7 +596,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Kommentar1"
+                          "value" : "Kommentar 1"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -687,7 +737,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Keyresult2"
+                          "value" : "Keyresult 2"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -746,7 +796,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Zustaendigkeit2"
+                          "value" : "Zustaendigkeit 2"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -805,7 +855,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Fortschritt2"
+                          "value" : "Fortschritt 2"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -864,7 +914,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Aktiv2"
+                          "value" : "Aktiv 2"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -1007,7 +1057,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Objective3"
+                          "value" : "Objective 3"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1066,7 +1116,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Keyresult3"
+                          "value" : "Keyresult 3"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1125,7 +1175,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Zustaendigkeit3"
+                          "value" : "Zustaendigkeit 3"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1184,7 +1234,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Fortschritt3"
+                          "value" : "Fortschritt 3"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1243,7 +1293,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Aktiv3"
+                          "value" : "Aktiv 3"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -1304,7 +1354,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Kommentar3"
+                          "value" : "Kommentar 3"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -1597,6 +1647,13 @@
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "2aab4d2a-779b-4686-b1ff-8a03b3780321",
+      "name" : "LH.png",
+      "type" : "img",
+      "order" : 1,
       "external" : false
     }
   ],

@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "231d037a-1b3c-4005-8419-0b9b3781cb0d",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731876441687,
+  "lastUpdate" : 1731877718904,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -30,6 +30,45 @@
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 3,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "srcType" : {
+                  "type" : "constant",
+                  "value" : "Asset"
+                },
+                "url" : {
+                  "type" : "constant",
+                  "value" : "LH.png"
+                },
+                "assetName" : {
+                  "type" : "constant",
+                  "value" : "LH.png"
+                },
+                "alt" : {
+                  "type" : "interpolation"
+                }
+              },
+              "reference" : "18bf6f4a-3afa-4348-b265-f4abd4babdb1",
+              "hasValidationError" : false,
+              "id" : "pbImage"
+            }
+          ],
           [
             {
               "type" : "component",
@@ -739,6 +778,13 @@
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "8cab81b2-6b59-47e9-b5f5-6591d2aee428",
+      "name" : "LH.png",
+      "type" : "img",
+      "order" : 1,
       "external" : false
     },
     {
