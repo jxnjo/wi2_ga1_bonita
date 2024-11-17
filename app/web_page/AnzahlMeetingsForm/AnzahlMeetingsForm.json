@@ -1,10 +1,10 @@
 {
-  "id" : "newForm9",
-  "name" : "newForm9",
+  "id" : "AnzahlMeetingsForm",
+  "name" : "AnzahlMeetingsForm",
   "type" : "form",
-  "uuid" : "b0e00aec-1d84-41f6-8154-c4f7bf279d8b",
+  "uuid" : "84c4ae22-17b6-47bf-9c14-db1902118eba",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731859827316,
+  "lastUpdate" : 1731858348012,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "27fc50e6-023d-4d10-8b7d-57d4ac640a37",
+        "reference" : "140d80d0-0324-48ba-a0ac-1d4b87e31e22",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +53,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "2a3d695c-c388-4487-bb86-f521eef6f721",
+              "reference" : "8358eb87-f8fb-42d5-9c44-633e8f3044ad",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,7 +101,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "ad0bf9e3-dc58-4ca1-a37e-fb32d8fce542",
+              "reference" : "634dcbc6-8bb1-478a-91b7-1348df4f0647",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -117,7 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "bd021d09-e200-4a6b-872b-109106d9fa6b",
+        "reference" : "585f8e8a-65a0-4357-89c0-fe3bd4fbc929",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -126,192 +126,10 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "36fb4778-a52f-4a37-9370-8edaf3eb8a70",
+          "reference" : "d42f2b15-1cd1-407b-8517-6b8f6ac69dc1",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
-            [
-              {
-                "type" : "component",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "level" : {
-                    "type" : "constant",
-                    "value" : "Level 4"
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "Einladung zum Ceck-In-Meeting {{okrTable.meetingCounter}} von {{okrTable.anzahlMeetings}}"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  },
-                  "allowHTML" : {
-                    "type" : "constant",
-                    "value" : false
-                  }
-                },
-                "reference" : "9343753c-0ba5-412a-af77-d2ee80e8df66",
-                "hasValidationError" : false,
-                "id" : "pbTitle",
-                "description" : ""
-              }
-            ],
-            [
-              {
-                "type" : "container",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "repeatedCollection" : {
-                    "type" : "variable"
-                  },
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "fc7ba18e-620e-4de1-ace5-e9caf08af9f1",
-                "hasValidationError" : false,
-                "id" : "pbContainer",
-                "rows" : [
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "showNow" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "inlineInput" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "dateFormat" : {
-                          "type" : "constant",
-                          "value" : "MM/dd/yyyy"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Datum"
-                        },
-                        "type" : {
-                          "type" : "constant"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "todayLabel" : {
-                          "type" : "constant",
-                          "value" : "Today"
-                        },
-                        "timePlaceholder" : {
-                          "type" : "constant",
-                          "value" : "Enter a time (h:mm:ss a)"
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "showToday" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "timeFormat" : {
-                          "type" : "constant",
-                          "value" : "h:mm:ss a"
-                        },
-                        "placeholder" : {
-                          "type" : "constant",
-                          "value" : "Enter a date (mm/dd/yyyy)"
-                        },
-                        "nowLabel" : {
-                          "type" : "constant",
-                          "value" : "Now"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "einladung.datum"
-                        },
-                        "withTimeZone" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "e2d07382-ee0a-43a1-ab63-001b11880dd3",
-                      "hasValidationError" : false,
-                      "id" : "pbDateTimePicker",
-                      "description" : ""
-                    }
-                  ]
-                ]
-              }
-            ],
             [
               {
                 "type" : "component",
@@ -345,13 +163,9 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-                  },
-                  "allowHTML" : {
-                    "type" : "constant",
-                    "value" : false
                   }
                 },
-                "reference" : "d8df780a-a74e-4715-99e9-b55f31408437",
+                "reference" : "ef377a46-9757-4df4-a758-d40bec53d831",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -383,7 +197,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "8bba77ea-93b6-488c-b98b-d38b60e42c70",
+                "reference" : "fd48a924-babb-4fd5-bc3d-d251cd55e92b",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -407,7 +221,7 @@
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!okrTable.aktiv1"
+                          "value" : "!okrTable.objective1"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -428,21 +242,9 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
                         }
                       },
-                      "reference" : "a376f467-22bf-4387-86a5-c4d4e847e903",
+                      "reference" : "3cfe6d68-3384-4c53-a1c1-673113a4a926",
                       "hasValidationError" : false,
                       "id" : "pbText",
                       "description" : ""
@@ -466,7 +268,7 @@
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!okrTable.aktiv1"
+                          "value" : "!okrTable.keyresult1"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -501,7 +303,7 @@
                           "value" : 4
                         }
                       },
-                      "reference" : "8a5d596c-ba55-47a5-9588-69a002a5af59",
+                      "reference" : "f36e9a19-2b1d-4a04-9633-326fe322b419",
                       "hasValidationError" : false,
                       "id" : "pbText",
                       "description" : ""
@@ -525,7 +327,7 @@
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!okrTable.aktiv1"
+                          "value" : "!okrTable.zustaendigkeit1"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -560,7 +362,7 @@
                           "value" : 4
                         }
                       },
-                      "reference" : "884e7956-7e13-43c0-93aa-38d2d5cbb63d",
+                      "reference" : "f673704a-0d3e-45cb-80fd-a272fe6d3230",
                       "hasValidationError" : false,
                       "id" : "pbText",
                       "description" : ""
@@ -574,83 +376,54 @@
                         "lg" : 3
                       },
                       "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
                         "labelHidden" : {
                           "type" : "constant",
                           "value" : false
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!okrTable.aktiv1"
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
+                          "value" : "!okrTable.fortschritt1"
                         },
                         "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
                         },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
                         "label" : {
                           "type" : "interpolation",
                           "value" : "Fortschritt1"
                         },
-                        "placeholder" : {
-                          "type" : "constant"
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{okrTable.fortschritt1}}"
                         },
-                        "type" : {
+                        "alignment" : {
                           "type" : "constant",
-                          "value" : "number"
+                          "value" : "left"
                         },
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
                         },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "okrTable.fortschritt1"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
                         "allowHTML" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "minLength" : {
+                        "labelPosition" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : "top"
                         },
-                        "maxLength" : {
+                        "labelWidth" : {
                           "type" : "constant",
-                          "value" : ""
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
+                          "value" : 4
                         }
                       },
-                      "reference" : "bb156d48-41d0-4aa4-8a23-63b915a56499",
+                      "reference" : "a6fd5b07-51f9-41bd-93c5-79244b2fa587",
                       "hasValidationError" : false,
-                      "id" : "pbInput",
+                      "id" : "pbText",
                       "description" : ""
                     }
                   ],
@@ -674,7 +447,7 @@
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!okrTable.aktiv2"
+                          "value" : "!okrTable.objective2"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -695,21 +468,9 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
                         }
                       },
-                      "reference" : "249ea4d4-71f9-49e5-9a0b-f1fa92c909bf",
+                      "reference" : "473fcb51-464e-49f5-a211-d4230fb729d7",
                       "hasValidationError" : false,
                       "id" : "pbText",
                       "description" : ""
@@ -733,7 +494,7 @@
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!okrTable.aktiv2"
+                          "value" : "!okrTable.keyresult2"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -768,7 +529,7 @@
                           "value" : 4
                         }
                       },
-                      "reference" : "ffd20721-f97e-46ee-8db7-310a4bd9a745",
+                      "reference" : "0c04b5e0-7c8a-45c5-95f9-a6e2812da263",
                       "hasValidationError" : false,
                       "id" : "pbText",
                       "description" : ""
@@ -792,7 +553,7 @@
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!okrTable.aktiv2"
+                          "value" : "!okrTable.zustaendigkeit2"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -827,7 +588,7 @@
                           "value" : 4
                         }
                       },
-                      "reference" : "4f7fa18a-43f6-4515-b230-44d28133ce83",
+                      "reference" : "c0763ece-5e32-4b20-b9f7-a725c2d97761",
                       "hasValidationError" : false,
                       "id" : "pbText",
                       "description" : ""
@@ -841,83 +602,54 @@
                         "lg" : 3
                       },
                       "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
                         "labelHidden" : {
                           "type" : "constant",
                           "value" : false
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!okrTable.aktiv2"
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
+                          "value" : "!okrTable.fortschritt2"
                         },
                         "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
                         },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
                         "label" : {
                           "type" : "interpolation",
                           "value" : "Fortschritt2"
                         },
-                        "placeholder" : {
-                          "type" : "constant"
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{okrTable.fortschritt2}}"
                         },
-                        "type" : {
+                        "alignment" : {
                           "type" : "constant",
-                          "value" : "number"
+                          "value" : "left"
                         },
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
                         },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "okrTable.fortschritt2"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
                         "allowHTML" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "minLength" : {
+                        "labelPosition" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : "top"
                         },
-                        "maxLength" : {
+                        "labelWidth" : {
                           "type" : "constant",
-                          "value" : ""
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
+                          "value" : 4
                         }
                       },
-                      "reference" : "2e4f3860-e3e9-4373-b583-06d26d2d0a7e",
+                      "reference" : "2ad1123a-0864-46b3-a724-6766286bec50",
                       "hasValidationError" : false,
-                      "id" : "pbInput",
+                      "id" : "pbText",
                       "description" : ""
                     }
                   ],
@@ -941,7 +673,7 @@
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!okrTable.aktiv3"
+                          "value" : "!okrTable.objective3"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -962,21 +694,9 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
                         }
                       },
-                      "reference" : "74c3b2b8-02a2-41d6-9fd2-e925eb3d2961",
+                      "reference" : "cac85bb2-d243-45e8-9319-e845c8c7dd2c",
                       "hasValidationError" : false,
                       "id" : "pbText",
                       "description" : ""
@@ -1000,7 +720,7 @@
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!okrTable.aktiv3"
+                          "value" : "!okrTable.keyresult3"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -1035,7 +755,7 @@
                           "value" : 4
                         }
                       },
-                      "reference" : "f79cc580-3b91-4dd9-8473-75eb7845587d",
+                      "reference" : "3c36b156-2e8a-4f27-9a31-079d64b4f4af",
                       "hasValidationError" : false,
                       "id" : "pbText",
                       "description" : ""
@@ -1059,7 +779,7 @@
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!okrTable.aktiv3"
+                          "value" : "!okrTable.zustaendigkeit3"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -1094,7 +814,7 @@
                           "value" : 4
                         }
                       },
-                      "reference" : "5a8114d0-749a-4c21-b2c9-f73f6c390eda",
+                      "reference" : "b367434c-229f-4f07-a645-743c241558ce",
                       "hasValidationError" : false,
                       "id" : "pbText",
                       "description" : ""
@@ -1108,13 +828,126 @@
                         "lg" : 3
                       },
                       "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
                         "labelHidden" : {
                           "type" : "constant",
                           "value" : false
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!okrTable.aktiv3"
+                          "value" : "!okrTable.fortschritt3"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Fortschritt3"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{okrTable.fortschritt3}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        }
+                      },
+                      "reference" : "59b9017f-1b22-4bb9-96f4-0c418e16ede8",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12,
+                        "sm" : 12,
+                        "md" : 3,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Default label"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "Wie viele Meetings?"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        }
+                      },
+                      "reference" : "b3025ed6-5c90-404d-bf65-a512704f7922",
+                      "hasValidationError" : false,
+                      "id" : "pbText"
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
                         },
                         "labelPosition" : {
                           "type" : "constant",
@@ -1134,7 +967,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Fortschritt3"
+                          "value" : "Anzahl Meetings"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -1149,7 +982,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "okrTable.fortschritt3"
+                          "value" : "okrTable.anzahlMeetings"
                         },
                         "required" : {
                           "type" : "constant",
@@ -1182,7 +1015,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "cd10570e-b4c0-470a-85ba-5dbb84969d5d",
+                      "reference" : "44ec68c6-ec0d-45eb-9203-53dcd738fd07",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -1218,7 +1051,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Updaten"
+                    "value" : "Bestätigen"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -1287,7 +1120,7 @@
                     "value" : ""
                   }
                 },
-                "reference" : "6a4e1367-c2c6-4b0e-9c77-83d72af487b7",
+                "reference" : "74e3669b-e1df-430f-ba7b-beb06b7f80b3",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -1339,7 +1172,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "a4e61e6d-1d5e-4f69-b123-38e1a032e120",
+                "reference" : "d2240838-0d77-4e06-9860-b47c40f73557",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -1355,13 +1188,6 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}"
-      ],
-      "exposed" : false
-    },
-    "einladung" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.einladung_ref.link}}"
       ],
       "exposed" : false
     },
@@ -1383,17 +1209,11 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.einladung && $data.okrTable ){",
+        "if( $data.okrTable ){",
         "\treturn {",
-        "\t\t//map einladung variable to expected task contract input",
-        "\t\teinladungInput: {",
-        "\t\t\tdatum: $data.einladung.datum !== undefined ? $data.einladung.datum : null",
-        "\t\t},",
         "\t\t//map okrTable variable to expected task contract input",
         "\t\tokrTableInput: {",
-        "\t\t\tfortschritt1: $data.okrTable.fortschritt1 !== undefined ? $data.okrTable.fortschritt1 : null,",
-        "\t\t\tfortschritt2: $data.okrTable.fortschritt2 !== undefined ? $data.okrTable.fortschritt2 : null,",
-        "\t\t\tfortschritt3: $data.okrTable.fortschritt3 !== undefined ? $data.okrTable.fortschritt3 : null",
+        "\t\t\tanzahlMeetings: $data.okrTable.anzahlMeetings !== undefined ? $data.okrTable.anzahlMeetings : null",
         "\t\t}",
         "\t}",
         "}"
@@ -1424,16 +1244,16 @@
   },
   "assets" : [
     {
-      "id" : "3f90d87e-6053-4a48-849a-bbdf8549299c",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "4aa803c6-dda7-4b14-a8f6-aeacce84c3d1",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "fe1bf166-08c7-44c3-9932-8b74e24a9ece",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "211cb8c0-a1cc-426d-a0b1-94c32f209deb",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     }

@@ -26,6 +26,14 @@
             <queries/>
             <indexes/>
         </businessObject>
+        <businessObject qualifiedName="com.company.model.Dokumentation">
+            <fields>
+                <field type="TEXT" length="255" name="inhalt" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
         <businessObject qualifiedName="com.company.model.Einladung">
             <fields>
                 <field type="LOCALDATETIME" length="255" name="datum" nullable="false" collection="false"/>
@@ -61,6 +69,14 @@
                 <field type="STRING" length="255" name="keyresult1" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="keyresult2" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="keyresult3" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="anzahlMeetings" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="meetingCounter" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="kommentar1" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="kommentar2" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="kommentar3" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="erreicht1" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="erreicht2" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="erreicht3" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -69,6 +85,15 @@
         <businessObject qualifiedName="com.company.model.Prozess">
             <fields>
                 <field type="BOOLEAN" length="255" name="prozessStatus" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Retrospective">
+            <fields>
+                <field type="TEXT" length="255" name="positiveAspekte" nullable="true" collection="true"/>
+                <field type="TEXT" length="255" name="negativeAspekte" nullable="true" collection="true"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
