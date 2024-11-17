@@ -2,9 +2,9 @@
   "id" : "overviewForm",
   "name" : "overviewForm",
   "type" : "form",
-  "uuid" : "5c3ce8e2-7a4c-4867-8bac-78cf99e7c5ef",
+  "uuid" : "dc318ab4-6c8f-49e4-96fb-cba3af2a7134",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731614777813,
+  "lastUpdate" : 1731876990340,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,62 +14,11 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "92cd9e63-aac6-4b04-96d0-45a5c68b44b1",
+        "reference" : "bcd48859-6689-4169-9a96-856faf8a61a8",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
-          [
-            {
-              "type" : "component",
-              "dimension" : {
-                "xs" : 12,
-                "sm" : 12,
-                "md" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "labelHidden" : {
-                  "type" : "constant",
-                  "value" : true
-                },
-                "label" : {
-                  "type" : "interpolation",
-                  "value" : "Default label"
-                },
-                "labelPosition" : {
-                  "type" : "constant",
-                  "value" : "top"
-                },
-                "labelWidth" : {
-                  "type" : "constant",
-                  "value" : 4
-                },
-                "text" : {
-                  "type" : "interpolation",
-                  "value" : "Hallo. Hier ist unser Prozess."
-                },
-                "alignment" : {
-                  "type" : "constant",
-                  "value" : "left"
-                }
-              },
-              "reference" : "75b51d91-ee8c-4327-97a9-050a1d3f2286",
-              "hasValidationError" : false,
-              "id" : "pbText"
-            }
-          ]
+          [ ]
         ]
       }
     ]
@@ -77,16 +26,16 @@
   "variables" : { },
   "assets" : [
     {
-      "id" : "dd4e6049-36ab-4567-9cd6-dd2d381cd170",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "ba758cac-3d20-489d-858e-a418d3bd2e54",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "747ceefc-f49c-4916-92ab-aa7b8bcb6fd8",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "6251403d-7432-4bc3-8bae-2dd8efb6725a",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     }
