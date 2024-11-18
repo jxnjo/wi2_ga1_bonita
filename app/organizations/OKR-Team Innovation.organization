@@ -25,6 +25,29 @@
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
+    <user userName="barbara.rhabarber">
+      <firstName>Barbara</firstName>
+      <lastName>Rhabarber</lastName>
+      <title>Ms</title>
+      <personalData/>
+      <professionalData>
+        <email>rhabarber.barbara@lufthansa.com</email>
+        <mobileNumber>0793456789</mobileNumber>
+      </professionalData>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="rainer.zufall">
+      <firstName>Rainer</firstName>
+      <lastName>Zufall</lastName>
+      <personalData/>
+      <professionalData>
+        <email>rainer.random@lufthansa.com</email>
+        <mobileNumber>0761234567</mobileNumber>
+      </professionalData>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="OKR-Facilitator">
@@ -47,6 +70,16 @@
     </membership>
     <membership>
       <userName>jan.joos</userName>
+      <roleName>Team Member</roleName>
+      <groupName>Digital Partner Innovation</groupName>
+    </membership>
+    <membership>
+      <userName>barbara.rhabarber</userName>
+      <roleName>Team Member</roleName>
+      <groupName>Digital Partner Innovation</groupName>
+    </membership>
+    <membership>
+      <userName>rainer.zufall</userName>
       <roleName>Team Member</roleName>
       <groupName>Digital Partner Innovation</groupName>
     </membership>
