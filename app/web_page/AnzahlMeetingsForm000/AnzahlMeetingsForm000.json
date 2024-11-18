@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "84c4ae22-17b6-47bf-9c14-db1902118eba",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731876529389,
+  "lastUpdate" : 1731966820695,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -154,7 +154,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Okr Table"
+                    "value" : "OKR Table"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -163,6 +163,10 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
                   }
                 },
                 "reference" : "ef377a46-9757-4df4-a758-d40bec53d831",

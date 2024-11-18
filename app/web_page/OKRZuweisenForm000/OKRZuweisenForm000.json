@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "12378150-759d-472f-9b0d-cfd5390c6250",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731876520199,
+  "lastUpdate" : 1731966869819,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -191,51 +191,6 @@
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
-            [
-              {
-                "type" : "component",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "level" : {
-                    "type" : "constant",
-                    "value" : "Level 4"
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "OKR-Tabelle"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  },
-                  "allowHTML" : {
-                    "type" : "constant",
-                    "value" : false
-                  }
-                },
-                "reference" : "2c769945-431d-4298-805b-cdd4ee16e115",
-                "hasValidationError" : false,
-                "id" : "pbTitle",
-                "description" : ""
-              }
-            ],
             [
               {
                 "type" : "container",
@@ -566,6 +521,51 @@
                     }
                   ]
                 ]
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "OKRs definieren:"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  }
+                },
+                "reference" : "2c769945-431d-4298-805b-cdd4ee16e115",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
               }
             ],
             [
