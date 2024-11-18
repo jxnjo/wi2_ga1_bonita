@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "1660f3e6-82b9-42fa-ad8a-6f7ce8bc4779",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731876613404,
+  "lastUpdate" : 1731965110091,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -51,6 +51,10 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
                 }
               },
               "reference" : "ba58c31b-705f-46be-8e6f-f86aedb0ce5a",
@@ -154,7 +158,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Okr Table"
+                    "value" : "OKR-Übersicht"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -163,6 +167,10 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
                   }
                 },
                 "reference" : "971057ab-fa5b-4e14-8e37-5ac01e39476c",
@@ -237,7 +245,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Objective1"
+                          "value" : "Objective (OKR 1)"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -325,7 +333,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Keyresult1"
+                          "value" : "Keyresult"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -405,7 +413,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Fortschritt1"
+                          "value" : "Fortschritt (in %)"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -474,7 +482,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Kommentar1"
+                          "value" : "Kommentar"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -668,7 +676,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Objective2"
+                          "value" : "Objective (OKR 2)"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -756,7 +764,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Keyresult2"
+                          "value" : "Keyresult"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -836,7 +844,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Fortschritt2"
+                          "value" : "Fortschritt (in %)"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -905,7 +913,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Kommentar2"
+                          "value" : "Kommentar"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -1099,7 +1107,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Objective3"
+                          "value" : "Objective (OKR 3)"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -1187,7 +1195,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Keyresult3"
+                          "value" : "Keyresult"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -1267,7 +1275,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Fortschritt3"
+                          "value" : "Fortschritt (in %)"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1336,7 +1344,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Kommentar3"
+                          "value" : "Kommentar"
                         },
                         "placeholder" : {
                           "type" : "constant"

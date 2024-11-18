@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "c36762e1-7d51-41b8-823e-33b75730bacc",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731876577965,
+  "lastUpdate" : 1731964967864,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -170,7 +170,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Okr Table"
+                    "value" : "OKRs kommentieren:"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -249,7 +249,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Objective1"
+                          "value" : "Objective (OKR 1)"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -308,7 +308,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Keyresult1"
+                          "value" : "Keyresult"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -367,7 +367,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Zustaendigkeit1"
+                          "value" : "Zuständigkeit"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -426,7 +426,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Fortschritt1"
+                          "value" : "Fortschritt"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -485,7 +485,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Aktiv1"
+                          "value" : "Aktiv"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -546,7 +546,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Kommentar1"
+                          "value" : "Kommentar für das erste OKR:"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -628,7 +628,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Objective2"
+                          "value" : "Objective (OKR 2)"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -687,7 +687,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Keyresult2"
+                          "value" : "Keyresult"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -746,7 +746,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Zustaendigkeit2"
+                          "value" : "Zuständigkeit"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -805,7 +805,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Fortschritt2"
+                          "value" : "Fortschritt"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -864,7 +864,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Aktiv2"
+                          "value" : "Aktiv"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -925,7 +925,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Kommentar2"
+                          "value" : "Kommentar für das zweite OKR:"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -1007,7 +1007,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Objective3"
+                          "value" : "Objective (OKR 3)"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1066,7 +1066,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Keyresult3"
+                          "value" : "Keyresult"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1125,7 +1125,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Zustaendigkeit3"
+                          "value" : "Zuständigkeit"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1184,7 +1184,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Fortschritt3"
+                          "value" : "Fortschritt"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1243,7 +1243,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Aktiv3"
+                          "value" : "Aktiv"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -1304,7 +1304,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Kommentar3"
+                          "value" : "Kommentar für das dritte OKR:"
                         },
                         "placeholder" : {
                           "type" : "constant"

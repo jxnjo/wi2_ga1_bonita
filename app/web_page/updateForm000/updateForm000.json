@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "b0e00aec-1d84-41f6-8154-c4f7bf279d8b",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731876565746,
+  "lastUpdate" : 1731964757911,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -391,6 +391,58 @@
                     {
                       "type" : "component",
                       "dimension" : {
+                        "xs" : 12,
+                        "sm" : 12,
+                        "md" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!okrTable.aktiv1"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Default label"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "Erstes OKR:"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        }
+                      },
+                      "reference" : "ce4025a5-4e7d-41c6-a0d3-17505802881b",
+                      "hasValidationError" : false,
+                      "id" : "pbText"
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
                         "md" : 3,
                         "sm" : 12,
                         "xs" : 12,
@@ -415,7 +467,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Objective1"
+                          "value" : "Objective"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -474,7 +526,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Keyresult1"
+                          "value" : "Keyresult"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -533,7 +585,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Zustaendigkeit1"
+                          "value" : "Zustaendigkeit"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -600,7 +652,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Fortschritt1"
+                          "value" : "Fortschritt (in %)"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -638,10 +690,12 @@
                           "value" : 0
                         },
                         "min" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : 0
                         },
                         "max" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : 100
                         },
                         "step" : {
                           "type" : "constant",
@@ -652,6 +706,58 @@
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12,
+                        "sm" : 12,
+                        "md" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!okrTable.aktiv2"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Default label"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "Zweites OKR:"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        }
+                      },
+                      "reference" : "60e84009-6828-4d1f-87c1-8c773f55266c",
+                      "hasValidationError" : false,
+                      "id" : "pbText"
                     }
                   ],
                   [
@@ -682,7 +788,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Objective2"
+                          "value" : "Objective"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -741,7 +847,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Keyresult2"
+                          "value" : "Keyresult"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -800,7 +906,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Zustaendigkeit2"
+                          "value" : "Zustaendigkeit"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -867,7 +973,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Fortschritt2"
+                          "value" : "Fortschritt (in %)"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -905,10 +1011,12 @@
                           "value" : 0
                         },
                         "min" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : 0
                         },
                         "max" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : 100
                         },
                         "step" : {
                           "type" : "constant",
@@ -919,6 +1027,58 @@
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12,
+                        "sm" : 12,
+                        "md" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!okrTable.aktiv3"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Default label"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "Drittes OKR:"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        }
+                      },
+                      "reference" : "5616b784-f170-4e19-834e-d1902869eed1",
+                      "hasValidationError" : false,
+                      "id" : "pbText"
                     }
                   ],
                   [
@@ -949,7 +1109,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Objective3"
+                          "value" : "Objective"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1008,7 +1168,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Keyresult3"
+                          "value" : "Keyresult"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1067,7 +1227,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Zustaendigkeit3"
+                          "value" : "Zustaendigkeit"
                         },
                         "text" : {
                           "type" : "interpolation",
@@ -1134,7 +1294,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Fortschritt3"
+                          "value" : "Fortschritt (in %)"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -1172,10 +1332,12 @@
                           "value" : 0
                         },
                         "min" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : 0
                         },
                         "max" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : 100
                         },
                         "step" : {
                           "type" : "constant",
@@ -1337,6 +1499,14 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
                   }
                 },
                 "reference" : "a4e61e6d-1d5e-4f69-b123-38e1a032e120",

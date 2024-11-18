@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "7ac551cd-acaa-4701-ab50-9a58b7d13191",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1731876657045,
+  "lastUpdate" : 1731964340803,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -27,6 +27,8 @@
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
+            [ ],
+            [ ],
             [
               {
                 "type" : "component",
@@ -54,7 +56,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "START"
+                    "value" : "OKR-Prozess starten"
                   },
                   "dataToSend" : {
                     "type" : "expression",
